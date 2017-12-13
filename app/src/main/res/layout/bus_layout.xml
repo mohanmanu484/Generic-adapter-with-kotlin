@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/busRootLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:layout_toLeftOf="@+id/symbol"
+        android:id="@+id/busName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:fontFamily="sans-serif"
+        android:padding="16dp"
+        tools:text="Bus name" />
+
+    <TextView
+        android:id="@+id/symbol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="16dp"
+        android:text="B"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
